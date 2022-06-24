@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_edittext">
+
+        <TextView
+            android:id="@+id/tv_judulLagu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Judul Lagu" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_judulLagu"
+            android:hint="Masukkan Judul Lagu"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_edittext">
+
+        <TextView
+            android:id="@+id/tv_namaPenyanyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Nama Penyanyi" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_namaPenyanyi"
+            android:hint="Masukkan nama Penyanyi"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_edittext">
+
+        <TextView
+            android:id="@+id/tv_judulAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Judul Album" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_judulAlbum"
+            android:hint="Masukkan judul album"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_edittext">
+
+        <TextView
+            android:id="@+id/tv_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Genre" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_genre"
+            android:hint="Masukkan genre"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_edittext">
+
+        <TextView
+            android:id="@+id/tv_tahunRilis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Tahun Rilis" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_tahunRilis"
+            android:hint="Masukkan tahun rilis"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_submit"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_700"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_back"
+            android:text="Kembali"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/purple_200"
+            />
+    </LinearLayout>
+</LinearLayout>
